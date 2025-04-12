@@ -1,0 +1,15 @@
+# Eclipse and Java
+.classpath
+.project
+.settings/
+bin/
+build/
+target/
+
+# VS Code
+.vscode/
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.log
