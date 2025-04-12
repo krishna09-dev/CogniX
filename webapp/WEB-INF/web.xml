@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HomeBuyerController</display-name>
+    <servlet-name>HomeBuyerController</servlet-name>
+    <jsp-file>/pages/Buyer/HomeBuyer.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeBuyerController</servlet-name>
+    <url-pattern>/HomeBuyerController</url-pattern>
+  </servlet-mapping>
 </web-app>
